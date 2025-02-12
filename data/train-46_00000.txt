@@ -1,0 +1,9 @@
+USER: Can you help me check the weather for March 1st for Campbell?
+- Intent: GetWeather
+- Slots: {'city': ['Campbell'], 'date': ['March 1st']}
+
+SYSTEM: Sure. There will be a 4 percent change of rain with an average temperature of 91 degrees Fahrenheit.
+
+USER: OK. 
+- Intent: Other
+

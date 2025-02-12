@@ -1,0 +1,15 @@
+USER: What'll the weather be like on March 9th?
+- Intent: GetWeather
+- Slots: {'date': ['March 9th']}
+
+SYSTEM: In what city?
+
+USER: Check in Fairfax.
+- Intent: GetWeather
+- Slots: {'city': ['Fairfax'], 'date': ['March 9th']}
+
+SYSTEM: It'll be around 80 degrees and have a 3 percent chance of rain that day.
+
+USER: Okay.
+- Intent: Other
+

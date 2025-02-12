@@ -1,0 +1,15 @@
+USER: Can you tell me what the weather is suppose to be like on Wednesday next week in Hercules?
+- Intent: GetWeather
+- Slots: {'city': ['Hercules'], 'date': ['Wednesday next week']}
+
+SYSTEM: The average temperature is suppose to be 84 degrees with a 12 percent chance of rain.
+
+USER: Will it be windy?
+- Intent: GetDetails
+- Slots: {'request': ['wind']}
+
+SYSTEM: Wind speed should be 6 miles an hour.
+
+USER: Okay. Thanks.
+- Intent: Other
+

@@ -1,0 +1,15 @@
+USER: i want to check the weather in calistoga on the 3rd of this month.
+- Intent: GetWeather
+- Slots: {'city': ['calistoga'], 'date': ['3rd of this month']}
+
+SYSTEM: the weather that day should be 76 degrees and there'll be a 6 percent chance of rain.
+
+USER: how humid will it be?
+- Intent: GetDetails
+- Slots: {'request': ['humidity']}
+
+SYSTEM: it'll be around 23 percent.
+
+USER: ok
+- Intent: Other
+

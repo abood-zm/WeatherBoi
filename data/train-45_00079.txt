@@ -1,0 +1,9 @@
+USER: What will the weather be like on 4th of this month in San Fran?
+- Intent: GetWeather
+- Slots: {'city': ['San Fran'], 'date': ['4th of this month']}
+
+SYSTEM: The temperature will be averaging at around 71 degrees Fahrenheit for the day and the possibility of rain is at 16 percent.
+
+USER: Alright.
+- Intent: Other
+

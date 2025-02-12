@@ -1,0 +1,15 @@
+USER: Please tell me the weather forecast for March 8th.
+- Intent: GetWeather
+- Slots: {'date': ['March 8th']}
+
+SYSTEM: Any particular city's weather forecast?
+
+USER: Please check the weather in Menlo Park.
+- Intent: GetWeather
+- Slots: {'city': ['Menlo Park'], 'date': ['March 8th']}
+
+SYSTEM: The expected average temperature for the day is 83 degrees Fahrenheit, with a 9 percent chance of rain.
+
+USER: Sounds good! 
+- Intent: Other
+

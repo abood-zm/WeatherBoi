@@ -1,0 +1,9 @@
+USER: What will the weather be like in Pleasant Hill on the 9th of March?
+- Intent: GetWeather
+- Slots: {'city': ['Pleasant Hill'], 'date': ['9th of March']}
+
+SYSTEM: The temperature should average 83 degrees and there will be a 26 percent chance of rain.
+
+USER: Okay, thanks. 
+- Intent: Other
+

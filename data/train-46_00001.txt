@@ -1,0 +1,15 @@
+USER: Please check the weather on March 7th.
+- Intent: GetWeather
+- Slots: {'date': ['March 7th']}
+
+SYSTEM: For which city?
+
+USER: Please check San Jose.
+- Intent: GetWeather
+- Slots: {'city': ['San Jose'], 'date': ['March 7th']}
+
+SYSTEM: The average temperature will be 80 degrees with a 29 percent chance of rain.
+
+USER: Okay. 
+- Intent: Other
+

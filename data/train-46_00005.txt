@@ -1,0 +1,27 @@
+USER: I would like to check the weather.
+- Intent: GetWeather
+- Slots: {}
+
+SYSTEM: Which city are you interested in?
+
+USER: I would like Berkeley.
+- Intent: GetWeather
+- Slots: {'city': ['Berkeley']}
+
+SYSTEM: The temperature for that day will be 91 F with a 17 percent chance of rain.
+
+USER: What about the March 6th.
+- Intent: GetWeather
+- Slots: {'city': ['Berkeley'], 'date': ['March 6th']}
+
+SYSTEM: The temperature on average will be 84 degrees F with a 7 percent chance of rain.
+
+USER: What about Long Beach on the 13th of March?
+- Intent: GetWeather
+- Slots: {'city': ['Long Beach'], 'date': ['13th of March']}
+
+SYSTEM: The average temperature will be 72 degrees F with a 9 % chance of rain.
+
+USER: Thank you.
+- Intent: Other
+

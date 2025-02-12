@@ -1,0 +1,15 @@
+USER: Do you know the weather on March 9th?
+- Intent: GetWeather
+- Slots: {'date': ['March 9th']}
+
+SYSTEM: On which city specifically?
+
+USER: In Yountville, please.
+- Intent: GetWeather
+- Slots: {'city': ['Yountville'], 'date': ['March 9th']}
+
+SYSTEM: It is not that cold, the average temperature on that day is 91 degrees with 11 percent chance of rain.
+
+USER: Alright.
+- Intent: Other
+

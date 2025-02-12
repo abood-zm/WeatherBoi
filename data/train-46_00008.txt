@@ -1,0 +1,9 @@
+USER: I would like to check the weather in Hercules.
+- Intent: GetWeather
+- Slots: {'city': ['Hercules']}
+
+SYSTEM: The average temperature is projected to be 81 F and there is a 19 percent chance of rain.
+
+USER: Okay, thanks.
+- Intent: Other
+

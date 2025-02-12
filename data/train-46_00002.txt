@@ -1,0 +1,21 @@
+USER: I need the weather forecast for the 7th.
+- Intent: GetWeather
+- Slots: {'date': ['the 7th']}
+
+SYSTEM: What city would you like to check the weather?
+
+USER: Please check Ciudad de Mexico
+- Intent: GetWeather
+- Slots: {'city': ['Ciudad de Mexico'], 'date': ['the 7th']}
+
+SYSTEM: For that day there is a 6 percent chaning of rain and the average temperature should be 93 degrees Fahrenheit.
+
+USER: What will the humidity be? Will it be windy?
+- Intent: GetDetails
+- Slots: {'request': ['humidity', 'wind']}
+
+SYSTEM: The humidity will be around 24 percent and the average wind speed 5 miles per hour.
+
+USER: Thanks. 
+- Intent: Other
+

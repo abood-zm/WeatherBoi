@@ -1,0 +1,9 @@
+USER: Check for me please the weather in Mountain View.
+- Intent: GetWeather
+- Slots: {'city': ['Mountain View']}
+
+SYSTEM: The average temperature for the day should be 91 degrees Fahrenheit and 9 percent chance of rain.
+
+USER: I understand.
+- Intent: Other
+

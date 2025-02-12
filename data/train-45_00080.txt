@@ -1,0 +1,9 @@
+USER: Can you find me the weather in Novato for March 13th?
+- Intent: GetWeather
+- Slots: {'city': ['Novato'], 'date': ['March 13th']}
+
+SYSTEM: The weather for Novato for the day should be an average temperature of 70 degrees Fahrenheit with a 2 percent chance of rain.
+
+USER: Okay.
+- Intent: Other
+

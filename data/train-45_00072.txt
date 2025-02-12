@@ -1,0 +1,15 @@
+USER: Please check the weather for me in sonoma on 9th of this month
+- Intent: GetWeather
+- Slots: {'city': ['sonoma'], 'date': ['9th of this month']}
+
+SYSTEM: The temperature in Sonoma is 85 degree with 6 percent chance of rain
+
+USER: how humid would it be
+- Intent: GetDetails
+- Slots: {'request': ['humidity']}
+
+SYSTEM: it will be 21 percent humidity
+
+USER: ok
+- Intent: Other
+

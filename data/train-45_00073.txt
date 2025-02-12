@@ -1,0 +1,27 @@
+USER: What does the weather on March 14th look like?
+- Intent: GetWeather
+- Slots: {'date': ['March 14th']}
+
+SYSTEM: Which city should I check it for?
+
+USER: Search in Mill Valley
+- Intent: GetWeather
+- Slots: {'city': ['Mill Valley'], 'date': ['March 14th']}
+
+SYSTEM: The temperature is expected to be 91 degrees with a 13 percent chance of rain.
+
+USER: What about humidity and wind?
+- Intent: GetDetails
+- Slots: {'request': ['humidity', 'wind']}
+
+SYSTEM: Humidity is expected to be around 40 percent and wind speed is at 2 miles per hour.
+
+USER: How about the weather in Palo Alto on next Tuesday?
+- Intent: GetWeather
+- Slots: {'city': ['Palo Alto'], 'date': ['next Tuesday']}
+
+SYSTEM: The temperature is expected to be 88 degrees with a 27 percent chance of rain.
+
+USER: Okay.
+- Intent: Other
+

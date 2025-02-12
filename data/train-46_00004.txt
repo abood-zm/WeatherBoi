@@ -1,0 +1,9 @@
+USER: I will go to Millbrae soon. Can you check the weather in there on March 6th?
+- Intent: GetWeather
+- Slots: {'city': ['Millbrae'], 'date': ['March 6th']}
+
+SYSTEM: The temperature will be around 88 degrees Fahrenheit with a 8 percent chance of raining.
+
+USER: That seems nice. 
+- Intent: Other
+

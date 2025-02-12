@@ -1,0 +1,27 @@
+USER: What's the weather like on Thursday next week?
+- Intent: GetWeather
+- Slots: {'date': ['Thursday next week']}
+
+SYSTEM: For what city?
+
+USER: Look in Sebastopol.
+- Intent: GetWeather
+- Slots: {'city': ['Sebastopol'], 'date': ['Thursday next week']}
+
+SYSTEM: The average temperature should be 83 degrees Fahrenheit. There'll be a 20 percent chance of rain.
+
+USER: Will it be windy? How humid?
+- Intent: GetDetails
+- Slots: {'request': ['humidity', 'wind']}
+
+SYSTEM: The wind speed will be around 1 miles per hour. The humidity should be around 30 %.
+
+USER: What about mill valley?
+- Intent: GetWeather
+- Slots: {'city': ['mill valley'], 'date': ['Thursday next week']}
+
+SYSTEM: Average temperature of 91 degrees Fahrenheit. There's a 27 % chance of rain.
+
+USER: Thanks.
+- Intent: Other
+

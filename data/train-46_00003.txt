@@ -1,0 +1,9 @@
+USER: Can you check the weather in Paris, France for me?
+- Intent: GetWeather
+- Slots: {'city': ['Paris, France']}
+
+SYSTEM: The average temperature in Paris, France should be 77 degrees Farenheit. There is also a 26 percent chance of rain.
+
+USER: Okay. 
+- Intent: Other
+
